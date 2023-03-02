@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry-test"
+version = "0.1.0"
+description = ""
+authors = ["김지환 <118325488+IamJihwan@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "poetry_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.7"
+djangorestframework = "^3.14.0"
+djangorestframework-simplejwt = "^5.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
